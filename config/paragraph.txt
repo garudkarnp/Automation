@@ -1,0 +1,5 @@
+Overloading is the mechanism of binding the 
+method call with the method body dynamically 
+based on the parameters passed to the method call. 
+Static methods are bonded at compile time using static binding. 
+Therefore, we cannot override static methods in Java.

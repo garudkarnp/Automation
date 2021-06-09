@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test Login",
+        "description": "",
+        "id": "login;test-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5662011600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launching login screen",
+            "match": {
+              "location": "Stepdefclass3.user_launching_login_screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2194563300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter with credentials",
+            "match": {
+              "location": "Stepdefclass3.user_enter_with_credentials(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "saranya",
+                  "password1"
+                ]
+              },
+              {
+                "cells": [
+                  "mercury",
+                  "password1"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login status",
+            "match": {
+              "location": "Stepdefclass3.verify_login_status()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Nisha"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/cucumber1/exercise5.feature",
+    "tags": []
+  }
+]
